@@ -1,0 +1,6 @@
+wangle (0.57) unstable; urgency=medium
+
+  * Initial Release, corresponding to upstrem release 'v2018.06.25.00'
+    0.57 matches the folly version
+
+ -- Maximilian Falkenstein <mfalkenstein@sos.ethz.ch>  Sat, 30 Jun 2018 17:52:00 +0200

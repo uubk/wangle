@@ -1,0 +1,18 @@
+Source: wangle
+Section: utils
+Priority: optional
+Maintainer: Maximilian Falkenstein <mfalkenstein@sos.ethz.ch>
+Build-Depends: debhelper (>=9), folly-dev (=0.57), dh-autoreconf | debhelper (>= 9.20160403~), libssl-dev, libevent-dev, libdouble-conversion-dev, libgoogle-glog-dev, libgflags-dev, cmake
+Standards-Version: 3.9.8
+Homepage: https://github.com/facebook/wangle
+Vcs-Git: https://github.com/uubk/wangle.git
+Vcs-Browser: https://github.com/uubk/wangle
+
+Package: wangle-dev
+Architecture: any
+Depends: ${misc:Depends}
+Description: C++ networking library
+  Wangle is a library that makes it easy to build protocols, application
+  clients, and application servers.  It's like Netty + Finagle smooshed
+  together, but in C++.
+  Note: This package only contains the _static_ library
