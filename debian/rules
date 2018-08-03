@@ -6,3 +6,6 @@ export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 
 %:
 	dh $@ --sourcedirectory=wangle --buildsystem=cmake --parallel
+
+override_dh_auto_test:
+	echo "Tests disabled..."
